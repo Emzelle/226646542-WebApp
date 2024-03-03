@@ -1,0 +1,114 @@
+body{
+    background-color: #34343d;
+}
+.container {
+    width: 100%;
+    background-color: #34343d; 
+    background-size: cover;
+    backdrop-filter: blur(10px); 
+  }
+  
+  nav {
+    background-color: rgba(14, 11, 11, 0.5); 
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 17px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #777474;
+  }
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(107, 65, 65, 0.2);
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+  
+.card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(167, 164, 164, 0.2);
+    border-style: solid;
+    border-color: black;
+}
+  
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(107, 65, 65, 0.2);
+    width: 20%;
+    margin-top: -33.9%;
+    margin-left: 40%;
+}
+  
+.card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(167, 164, 164, 0.2);
+    border-style: solid;
+    border-color: black;
+}
+
+.card3 {
+    box-shadow: 0 4px 8px 0 rgba(107, 65, 65, 0.2);
+    width: 20%;
+    margin-top: -33.9%;
+    margin-left: 75%;
+}
+  
+.card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(167, 164, 164, 0.2);
+    border-style: solid;
+    border-color: black;
+}
+
+.card4 {
+    box-shadow: 0 4px 8px 0 rgba(107, 65, 65, 0.2);
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 23%;
+}
+  
+.card4:hover {
+    box-shadow: 0 8px 16px 0 rgba(167, 164, 164, 0.2);
+    border-style: solid;
+    border-color: black;
+}
+
+.card5 {
+    box-shadow: 0 4px 8px 0 rgba(107, 65, 65, 0.2);
+    width: 20%;
+    margin-top: -41%;
+    margin-left: 58%;
+}
+  
+.card5:hover {
+    box-shadow: 0 8px 16px 0 rgba(167, 164, 164, 0.2);
+    border-style: solid;
+    border-color: black;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.title{
+    color: white;
+    text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: #34343d;
+    }
+  }

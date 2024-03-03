@@ -1,0 +1,36 @@
+body{
+    background-color: #34343d;
+  }
+  .container {
+    width: 100%;
+    background-color: #34343d; 
+    background-size: cover;
+    backdrop-filter: blur(10px); 
+  }
+  
+  nav {
+    background-color: rgba(14, 11, 11, 0.5); 
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 17px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #777474;
+  }
