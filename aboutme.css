@@ -34,3 +34,7 @@ body{
   a:hover {
     background-color: #777474;
   }
+
+  .text{
+    color: white;
+  }
